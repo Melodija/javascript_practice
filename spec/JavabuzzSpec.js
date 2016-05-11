@@ -34,4 +34,10 @@ describe('Javabuzz', function() {
     })
   });
 
+  describe('correctly says', function() {
+    it('Fizz for multiples of 3', function() {
+      expect(javabuzz.say(9)).toEqual('Fizz');
+    });
+    
+  });
 });
