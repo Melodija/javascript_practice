@@ -31,13 +31,17 @@ describe('Javabuzz', function() {
 
     it('divisible by 15', function() {
       expect(javabuzz.isDivisibleByFifteen(1)).toBe(false);
-    })
+    });
   });
 
   describe('correctly says', function() {
     it('Fizz for multiples of 3', function() {
       expect(javabuzz.say(9)).toEqual('Fizz');
     });
-    
+
+    it('Buzz for multiples of 5', function() {
+      expect(javabuzz.say(10)).toEqual('Buzz');
+    });
+
   });
 });
