@@ -28,6 +28,10 @@ describe('Javabuzz', function() {
     it('divisible by 5', function() {
       expect(javabuzz.isDivisibleByFive(1)).toBe(false);
     });
+
+    it('divisible by 15', function() {
+      expect(javabuzz.isDivisibleByFifteen(1)).toBe(false);
+    })
   });
 
 });
