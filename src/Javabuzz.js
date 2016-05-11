@@ -5,5 +5,5 @@ Javabuzz.prototype.isDivisibleByThree = function(number) {
 };
 
 Javabuzz.prototype.isDivisibleByFive = function(number) {
-  return true
+  return number % 5 === 0;
 };
