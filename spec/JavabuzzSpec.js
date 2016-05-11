@@ -46,5 +46,9 @@ describe('Javabuzz', function() {
     it('FizzBuzz for multiples of 15', function() {
       expect(javabuzz.say(15)).toEqual('FizzBuzz');
     });
+
+    it('the origin number if it is a not a multiple', function() {
+      expect(javabuzz.say(7)).toEqual(7);
+    });
   });
 });

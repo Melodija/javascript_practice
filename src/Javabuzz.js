@@ -13,7 +13,9 @@ Javabuzz.prototype.isDivisibleByFifteen = function(number) {
 };
 
 Javabuzz.prototype.say = function(number) {
-  if(this.isDivisibleByThree(number)) {
+  if (this.isDivisibleByFifteen(number)) {
+    return 'FizzBuzz';
+  } else if (this.isDivisibleByThree(number)) {
     return 'Fizz';
   } else if (this.isDivisibleByFive(number)) {
     return 'Buzz';
