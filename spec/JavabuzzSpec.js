@@ -43,5 +43,8 @@ describe('Javabuzz', function() {
       expect(javabuzz.say(10)).toEqual('Buzz');
     });
 
+    it('FizzBuzz for multiples of 15', function() {
+      expect(javabuzz.say(15)).toEqual('FizzBuzz');
+    });
   });
 });
